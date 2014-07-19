@@ -7,6 +7,14 @@ To start your new Phoenix application you have to:
 
 Now you can visit `localhost:4000` from your browser.
 
+## Testing
+
+```
+MIX_ENV=test mix test
+```
+
+NOTE: It's necessary to specify MIX_ENV because ExConf doesn't yet test Mix.env,
+and mix no longer sets MIX_ENV env var.
 
 ## Notes
 
